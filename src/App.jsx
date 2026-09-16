@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./assets/Navbar";
 import Sidebar from "./assets/Sidebar";
 import SummaryCard from "./assets/SummaryCard";
-import TransactionForm from "./assets/Transaction Form";
+import Transaction from "./assets/Transaction";
 import TransactionList from "./assets/TransactionList";
 
 import "./App.css";
@@ -155,7 +155,7 @@ function App() {
         </div>
 
         <div className="dashboard-grid">
-          <TransactionForm
+          <Transaction
             addTransaction={addTransaction}
             updateTransaction={updateTransaction}
             editingTransaction={editingTransaction}
