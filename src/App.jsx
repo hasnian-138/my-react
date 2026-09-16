@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./assets/Navbar";
 import Sidebar from "./assets/Sidebar";
 import SummaryCard from "./assets/SummaryCard";
-import TransactionForm from "./assets/TransactionForm";
+import TransactionForm from "./assets/Transaction Form";
 import TransactionList from "./assets/TransactionList";
 
 import "./App.css";
