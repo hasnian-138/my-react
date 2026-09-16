@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <div>
-        <h2>Expense Monthly</h2>
+        <h2>Monthly Expense </h2>
         <p>Manage your money smartly</p>
       </div>
 
